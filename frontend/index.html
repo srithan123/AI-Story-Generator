@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folk Tale Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Folk Tale Generator</h1>
+        <label for="region">Select Region:</label>
+        <input type="text" id="region" placeholder="Enter region (e.g., Japan, India)">
+        
+        <label for="theme">Enter Theme:</label>
+        <input type="text" id="theme" placeholder="Enter theme (e.g., dragons, gods)">
+        
+        <button onclick="generateStory()">Generate Tale</button>
+        
+        <h2>Generated Folk Tale:</h2>
+        <p id="output"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
